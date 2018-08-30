@@ -7,7 +7,7 @@ var server = http.createServer(function(request, response) {
 response.writeHead(200, {"Content-Type": "text/plain"});
   
  
-response.end("Welcome to Azure Web App!");
+response.end("Welcome to first Azure Web Application");
 
 });
 
